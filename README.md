@@ -135,4 +135,34 @@ Część kliencka wymaga szybkiego i lekkiego frameworka SPA z wbudowanym router
 Część serwerowa może się składać dosłownie z czegokolwiek. Baza danych będzie w SQLite3 WAL, a serwer musi mieć możliwość wyświetlania JSON.
 Jeszcze wymaga to kilku testów ale na chwilę obecną najbardziej obiecująca jest Symfonia5 (PHP). 
 
-Jeśli chodzi o koszty to tak długo jak nie muszę wydawać ani grosza, wszystko jest bezpłatne. Chyba że ktoś ma wyrzuty sumienia to potem pomyśli się nad opcją włączenia reklam. Albo zrobieniem linka z dotacjami w Jedynej Słusznej Kryptowalucie Na Której Nie Da Się Zarabiać (Dogecoin) … wtedy obowiązkowo wątek na forum gdzie mogę wydać swoje 1k piesków. 
+Jeśli chodzi o koszty to tak długo jak nie muszę wydawać ani grosza, wszystko jest bezpłatne. Chyba że ktoś ma wyrzuty sumienia to potem pomyśli się nad opcją włączenia reklam. Albo zrobieniem linka z dotacjami w Jedynej Słusznej Kryptowalucie Na Której Nie Da Się Zarabiać (Dogecoin) … wtedy obowiązkowo wątek na forum gdzie mogę wydać swoje 1k piesków.
+
+## Archipelag Gra
+
+### Miejsce akcji
+
+Akcja rozgrywa się na tytułowym archipelagu, na który składają się dwie główne wyspy i kilka mniejszych.
+
+Geologicznie muszę jeszcze doczytać ale mamy coś takiego: 
+
+1. Dawno, dawno temu był sobie podwodny wulkan.
+2. Z czasem przeistoczył się w wyspę wulkaniczną.
+3. Powstaje rafa koralowa.
+4. Ale zamiast otaczać wulkan, przemieszcza się na zachód. 
+5. Z czasem rafa zostaje oderwana od wyspy, powstaje wąski pas szerokości 10km. 
+6. Powstaje nowa wyspa koralowa.
+7. Część koralowców odrywa się i zaczyna tworzyć niewielkie wysepki o średnicy 300-500m. 
+8. Na wyspie wulkanicznej pojawiają się wysokie góry.
+9. Na nowo-powstałej pojawia się piasek i pierwsze rośliny, z czasem wyrośnie las. Płaska.
+
+Ze względu na potrzeby opowieści wyspa numer 2 dostaje słodkowodne jezioro. 
+
+### Klimat
+
+Od południa mamy ciepłe prądy morskie podwyższające temperaturę wybrzeża do nawet 30°C, od północy temperatura na plaży zbliża się do 20°C. Temperatura w górach zbliża się do zera.
+
+### Czas akcji
+
+Tutaj mam największy problem …
+
+Powiedzmy że mamy XVI wiek ale jedna z sekt wiedźm/czarowników (a w rzeczywistości inżynierów i medyków) rozpoczęła prace nad zaawansowaną fizyką, matematyką. biologią, chemią i medycyną. Tak że w kilka pokoleń doszli do Newtona i de Vaucansona (XVII/XVIII).

@@ -10,7 +10,7 @@ Dopiski:
 Archipelag to planowany od roku (→ Ideologia) Eksperymentalny Elastyczny Silnik Gier Tekstowych. Zaczynał jako próba przepisania Vallheru Engine na PHP7, a stał się odpowiedzią na [Twine](https://twinery.org/). 
 
 Pierwotnym celem projektu było stworzenie alternatywy dla Amorionu. Po pierwszych nieudanych próbach pojawił się pomysł napisania całego silnika od zera.
-Była szansa na rozwiązanie sprawy jak trzeba (silnik powstaje osobno i gra osobno) ale stanęło na tworzeniu całości krok po kroku. Czyli najpierw silnik, potem udostępnienie go wszystkim chętnym, przełączenie się na tworzenie tej konkretnej gry i prowadzenie jej do końca. 
+Była szansa na rozwiązanie sprawy jak trzeba (silnik powstaje osobno i gra osobno) ale stanęło na tworzeniu całości krok po kroku. 
 
 Podstawowym zarzutem dla Vallheru jest brak nowych graczy. Potem mamy wolno wczytujące się strony i wreszcie długie oczekiwanie na administratorów by cokolwiek zmienić. 
 Celem Archipelagu jest stworzenie prototypu nowej gry, która z jednej strony będzie mniej nudzić, a z drugiej nie zniechęci starych graczy. 
@@ -19,9 +19,9 @@ Plan jest taki:
 
 Zamiast obciążać serwer, wszystkie teksty i inne "nieruchome" części gry będą leżeć na statycznym hostingu jak GitHub Pages. Serwer przechowuje tylko i wyłącznie stan, czyli: logowanie, rejestracja, zmiana ekwipunku, zmiana statystyk, zmiana pieniędzy, walka. Powinno to z miejsca przyśpieszyć działanie aplikacji i ograniczyć zużycie zasobów serwera.
 
-Co do nowych graczy proponuję włączenie elementów strategicznych jak: zmniejszenie ilości pieniędzy przy sobie do UInt8 (255) i pieniędzy w banku do UInt16 (65535); zlikwidowanie magicznego klonowania rynku → przedmiot wystawiony na sprzedaż w mieście A zostaje w mieście A; wprowadzenie ograniczonych zasobów jedzenia i wody, po których wyczerpaniu gracze będą zmuszeni do szukania nowego domu; ataki graczy-bandytów; ktoś tam zaproponował faktorie czyli w określonych miejscach mamy określone zasoby, po których zdobyciu dostajemy premię do energii dla wszystkich członków klanu; bitwy o faktorie w stylu taktycznym (Forge of Empires); śmierć → zamiast magicznego uzdrowienia w szpitalu tracisz swoją postać i albo zaczynasz od nowa z 50% punktów postaci do rozdania albo jeśli masz rodzinę i dzieci przełączasz się na syna/córkę (którzy dziedziczą 75% statystyk z ojca i matki); osiągnięcia.
+Co do nowych graczy widzę szansę w ciągłym napięciu i ekonomii jak na rzemieślnika przystało. 
 
-Pierwsze reakcje to zmiany może i są dobre ale wprowadzą za duże zamieszanie … więc trzeba będzie albo jeszcze nad tym pomyśleć albo wprowadzić osobny łagodny świat bez przemocy i nagłych śmierci. Oczywiście wybór mechaniki nie może stać się przeszkodą w komunikacji więc powinna być możliwość wysyłania wiadomości i udziału w forach między światami.
+Czyli koniec z magicznym odradzaniem się w szpitalu, po śmierci zaczynasz od nowa z połową punktów postaci lub jeśli masz rodzinę stajesz się swoim synem/córką. Zamiast jednego królestwa mamy kilka, będzie możliwość założenia własnego. Skarbiec jest teraz wykorzystywany do podwyższenia/obniżenia cen (od każdej usługi jest podatek), utrzymywania sklepów, utrzymywania dróg, budowy nowych obiektów, zapewniania premii poddanym i/lub cudzoziemcom na swoim terytorium, handlu z innymi królestwami. Każde miasto ma określoną ilość żywności i wody, która jeśli się skończy włącza negatywną premię do zdrowia. Umierających można w ciągu kilku-kilkunastu godzin odszukać i uratować. W ramach walki z inflacją ilość pieniędzy przy sobie obniżona do UInt8 (255), a w banku do UInt16 (65535). Osiągnięcia.
 
 ### Cele
 
@@ -135,7 +135,7 @@ Część kliencka wymaga szybkiego i lekkiego frameworka SPA z wbudowanym router
 Część serwerowa może się składać dosłownie z czegokolwiek. Baza danych będzie w SQLite3 WAL, a serwer musi mieć możliwość wyświetlania JSON.
 Jeszcze wymaga to kilku testów ale na chwilę obecną najbardziej obiecująca jest Symfonia5 (PHP). 
 
-Jeśli chodzi o koszty to tak długo jak nie muszę wydawać ani grosza, wszystko jest bezpłatne. Chyba że ktoś ma wyrzuty sumienia to potem pomyśli się nad opcją włączenia reklam. Albo zrobieniem linka z dotacjami w Jedynej Słusznej Kryptowalucie Na Której Nie Da Się Zarabiać (Dogecoin) … wtedy obowiązkowo wątek na forum gdzie mogę wydać swoje 1k piesków.
+Jeśli chodzi o koszty to tak długo jak nie muszę wydawać ani grosza, wszystko jest bezpłatne. Chyba że ktoś ma wyrzuty sumienia to potem pomyśli się nad opcją włączenia reklam.
 
 ## Archipelag Gra
 

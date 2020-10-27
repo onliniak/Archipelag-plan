@@ -21,6 +21,8 @@ Zamiast obciążać serwer, wszystkie teksty i inne "nieruchome" części gry b�
 
 Co do nowych graczy widzę szansę w ciągłym napięciu i ekonomii jak na rzemieślnika przystało.
 
+Oczywiście nie wszystkim podobają się zmiany, uważając że nawet jeśli część z nich jest dobra to zmienianie przyzwyczajeń jest najgorszym co można zrobić. Więc najprawdopodobniej powstaną dwa światy. Jeden nastawiony na elementy survivalu i jeden łagodny. 
+
 - Śmierć
   - Można ją pokonać na 3 sposoby:
     - Jeśli w mieście jest działający szpital to można zapłacić za wskrzeszenie (jeśli władca włączy taką opcję)
@@ -195,26 +197,14 @@ Jeśli chodzi o koszty to tak długo jak nie muszę wydawać ani grosza, wszystk
 
 Akcja rozgrywa się na tytułowym archipelagu, na który składają się dwie główne wyspy i kilka mniejszych.
 
-Geologicznie muszę jeszcze doczytać ale mamy coś takiego: 
+Najdalej na wschód położona wyspa jest górzysta, pochodzenia wulkanicznego. Po dziś dzień można podziwiać krater z lawą. Znajdziemy na niej mnóstwo surowców mineralnych, metali szlachetnych, wieczny lodowiec w wysokich partiach masywu górskiego i rozległą pustynię w centralnej części terenu. 
 
-1. Dawno, dawno temu był sobie podwodny wulkan.
-2. Z czasem przeistoczył się w wyspę wulkaniczną.
-3. Powstaje rafa koralowa.
-4. Ale zamiast otaczać wulkan, przemieszcza się na zachód. 
-5. Z czasem rafa zostaje oderwana od wyspy, powstaje wąski pas szerokości 10km. 
-6. Powstaje nowa wyspa koralowa.
-7. Część koralowców odrywa się i zaczyna tworzyć niewielkie wysepki o średnicy 300-500m. 
-8. Na wyspie wulkanicznej pojawiają się wysokie góry.
-9. Na nowo-powstałej pojawia się piasek i pierwsze rośliny, z czasem wyrośnie las. Płaska.
+Na zachód od niej znajdziemy płaską, piaszczystą wyspę koralową oddaloną od sąsiadów wąskim pasem wody o szerokości 10km. Zalesiona, patrząc z lotu ptaka ma kształt końskiej głowy. Znajdziemy tu sztuczny, miedziano-kamienny okrągły "basen" o średnicy 1km i głębokości 20m, wypełniony słodką wodą z roztopionego lodu. Czyli ma z 30 000 litrów. Teren nad tym "jeziorem" zajmuje osada, od której rozchodzą się promieniście pola uprawne wypełnione ziemią wulkaniczną.
 
-Ze względu na potrzeby opowieści wyspa numer 2 dostaje słodkowodne jezioro. 
-
-### Klimat
+Dalej na zachód znajdziemy kilka mniejszych wysepek o średnicy 300-500m. 
 
 Od południa mamy ciepłe prądy morskie podwyższające temperaturę wybrzeża do nawet 30°C, od północy temperatura na plaży zbliża się do 20°C. Temperatura w górach zbliża się do zera.
 
-### Czas akcji
+Parę wieków wcześniej pewna sekta została zmuszona do opuszczenia swoich ziem, w obawie przed prześladowaniami. Byli inżynierami i medykami, oskarżanymi o czary. Zrobili zrzutkę, wynajęli statek i odpłynęli na drugą stronę planety. Tutaj dzięki całkowitej niezależności od średniowiecznej kultury i sporej ilości wszelkich metali/minerałów udało im się dojść do Newtona i de Vaucansona (XVII/XVIII). Obecnie zamieszkują wyspę koralową.
 
-Tutaj mam największy problem …
-
-Powiedzmy że mamy XVI wiek ale jedna z sekt wiedźm/czarowników (a w rzeczywistości inżynierów i medyków) rozpoczęła prace nad zaawansowaną fizyką, matematyką. biologią, chemią i medycyną. Tak że w kilka pokoleń doszli do Newtona i de Vaucansona (XVII/XVIII).
+Tymczasem na świecie nastał wiek XVI, pewien król znudzony podbiciem wszystkich ziem znanego mu świata (coś jak Alexander Macedoński), wysyła okręty wojenne w celu zajęcia nowych ziem. Niestety burza pokrzyżowała im plany i wylądowali bezradni na naszym archipelagu. Jako jeden z rozbitków musisz walczyć o przetrwanie albo znaleźć sposób na powrót do domu.

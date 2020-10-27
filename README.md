@@ -19,9 +19,61 @@ Plan jest taki:
 
 Zamiast obciążać serwer, wszystkie teksty i inne "nieruchome" części gry będą leżeć na statycznym hostingu jak GitHub Pages. Serwer przechowuje tylko i wyłącznie stan, czyli: logowanie, rejestracja, zmiana ekwipunku, zmiana statystyk, zmiana pieniędzy, walka. Powinno to z miejsca przyśpieszyć działanie aplikacji i ograniczyć zużycie zasobów serwera.
 
-Co do nowych graczy widzę szansę w ciągłym napięciu i ekonomii jak na rzemieślnika przystało. 
+Co do nowych graczy widzę szansę w ciągłym napięciu i ekonomii jak na rzemieślnika przystało.
 
-Czyli koniec z magicznym odradzaniem się w szpitalu, po śmierci zaczynasz od nowa z połową punktów postaci lub jeśli masz rodzinę stajesz się swoim synem/córką. Zamiast jednego królestwa mamy kilka, będzie możliwość założenia własnego. Skarbiec jest teraz wykorzystywany do podwyższenia/obniżenia cen (od każdej usługi jest podatek), utrzymywania sklepów, utrzymywania dróg, budowy nowych obiektów, zapewniania premii poddanym i/lub cudzoziemcom na swoim terytorium, handlu z innymi królestwami. Każde miasto ma określoną ilość żywności i wody, która jeśli się skończy włącza negatywną premię do zdrowia. Umierających można w ciągu kilku-kilkunastu godzin odszukać i uratować. W ramach walki z inflacją ilość pieniędzy przy sobie obniżona do UInt8 (255), a w banku do UInt16 (65535). Osiągnięcia.
+- Śmierć
+  - Można ją pokonać na 3 sposoby:
+    - Jeśli w mieście jest działający szpital to można zapłacić za wskrzeszenie (jeśli władca włączy taką opcję)
+    - Jeśli poległy zostanie odnaleziony przez innych i sprowadzony do placówki medycznej, istnieje pewna szansa że wyjdzie z tego cało
+    - Jeśli ma rodzinę, to może przełączyć się na swojego syna/córkę
+      - Dziecko otrzymuje po połowie punktów postaci od matki i ojca.
+    - Jeśli wszystko inne zawiodło, powraca z 75% punktów postaci
+- Inflacja
+  - Maksymalna ilość pieniędzy w sakiewce to UInt8 (255)
+  - Maksymalna ilość pieniedzy w banku to UInt16 (65535)
+- Skarbiec
+  - Wykorzystywany do:
+    - Utrzymania sklepów i dróg
+    - Zapewniania czasowych lub stałych premii na terenie określonego miasta
+    - Podwyższania/obniżania opłat targowych i podatków od sprzedaży w sklepach
+    - Handlu z innymi królestwami
+    - Fundowania loterii i konkursów
+    - Utrzymania urzędników państwowych
+    - Kupna NPCów dających stały przyrost surowców w magazynach.
+- Królestwo
+  - Istnieje kilka królestw
+  - W ciągu gry można założyć własne
+    - Pamiętając, że wszystkie budynki należy założyć od zera
+    - Co wymaga posiadania pieniędzy i transportu niezb≥ędnych surowców
+    - W domyśle na taki luksus pozwolą sobie jedynie klany
+  - Maksymalna liczba państw ograniczona
+- Faktoria handlowa
+  - To akurat nie mój pomysł
+  - Na mapie mamy kilka miejsc z surowcami specjalnymi
+  - Po zbudowaniu niezbędnej infrastruktury można czerpać z nich korzyść
+  - Wtedy cały klan otrzymuje premię do energii.
+- Wojna
+  - Miasta i Faktorie mogą zostać zaatakowane
+  - Przypomina to nieco bitwę o forty w The West
+  - Gracze mają 24 godziny na przybycie do określonej lokacji
+  - Przed bitwą można atakować innych graczy
+    - Ale istnieje ryzyko że zwróci się uwagę całej drużyny
+    - Drużyna atakującego nie pomaga w ataku
+    - Ale drużyna obrońcy już tak
+  - Po upływie czasu przenosimy się na mapę taktyczną
+  - Bitwę rozpoczynają łucznicy
+  - Następnie magowie
+  - Wojownicy przystępują do ataku
+  - Chodzicie po kwadracikach, atakujecie się i tak dalej
+  - Po 15 minutach jest 5 minutowa przerwa (chyba że większość się zgodzi by kontynuować)
+  - Bitwa się kończy gdy wszyscy padną.
+  - Żeby wyrównać szansę: 
+    - Jeśli atakujący mają mocniejsze postacie, to obrońcy dostają premię do obrony
+    - Jeśli mają liczniejszą armię to otrzymują premię do ataku
+    - Jeśli silniejszy wygra to przegrani dostają premię do doświadczenia
+    - A jeśli mają wyrównane szanse to wygrani dostają premię do doświadczenia
+  - Limitów ataków nie ma
+- Osiągnięcia
 
 ### Cele
 

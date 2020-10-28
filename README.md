@@ -33,6 +33,30 @@ Oczywiście nie wszystkim podobają się zmiany, uważając że nawet jeśli cz�
 - Inflacja
   - Maksymalna ilość pieniędzy w sakiewce to UInt8 (255)
   - Maksymalna ilość pieniedzy w banku to UInt16 (65535)
+- Transport
+  - Koniec z automagicznym pojawianiem się przedmiotów na wszystkich rynkach świata
+  - Od teraz jeśli chcesz sprzedać przedmiot w mieście X to musisz go tam zanieść
+  - Albo zamówić transport
+    - Publiczne karawany (sponsorowane przez króla) wyruszają raz na 24 godziny
+    - Prywatni gracze mogą zbudować swoje mini przedsiębiorstwo transportowe
+      - W takim przypadku mogą też przewozić innych graczy
+- Inn
+  - W tej wersji znane z Amorionu Karczmy, Noclegownie i Fontanny trafiają do jednego budynku
+  - Inn pozwala na jedzenie (raz na 8 godzin, mało energii) i spanie (raz na dzień gry, dużo energii)
+  - Oraz zakładanie pokoi na czacie
+  - Może być prowadzony przez graczy
+  - Publiczne zajazdy są dostępne w każdym większym mieście ale niekoniecznie oferują aż takie wygody jak prywatne
+  - W zamyśle będą przejmowane przez graczy fabularnych, którzy będą prowadzić tu swoje opowieści
+- Zbójcy
+  - Od teraz gracze mogą prowadzić romantyczny żywot rozbójnika
+  - Karawany krążą zawsze po tej samej trasie
+  - Ich ruchy są śledzone przez odpowiednie placówki pocztowe
+  - Podobnie z patrolami strażników ale oni podlegają pod wojsko
+  - Niewielka grupa może zaczaić się, zaatakować i uciec z łupem
+  - Im więcej ludzi, tym łatwiej ich wykryć
+  - Im więcej strażników tym większa szansa na wykrycie
+  - Nie chcę budzić złudnych nadziei że w pierwszej wersji będziemy mieć super AI
+  - Najprawdopodobniej liczba strażników i złodziei zostanie ograniczona
 - Skarbiec
   - Wykorzystywany do:
     - Utrzymania sklepów i dróg
@@ -60,6 +84,7 @@ Oczywiście nie wszystkim podobają się zmiany, uważając że nawet jeśli cz�
   - Gracze mają 24 godziny na przybycie do określonej lokacji
   - Przed bitwą można atakować innych graczy
     - Ale istnieje ryzyko że zwróci się uwagę całej drużyny
+    - Złodziej ma pewną premię do uniknięcia wykrycia
     - Drużyna atakującego nie pomaga w ataku
     - Ale drużyna obrońcy już tak
   - Po upływie czasu przenosimy się na mapę taktyczną
@@ -156,7 +181,7 @@ Wrzucam do kompilatora, uruchamiam serwer i widzę napis Hello World i zdjęcie 
 
 Jeśli chodzi o porządek to wszystkie zdjęcia i teksty będą leżeć w określonych katalogach. Polecenia będą przekazywane w oddzielnych plikach zwanych definicjami. Definicja dotyczy określonego języka programowania i jest napisana w tym języku, czyli na przykład piszę w Ruby i chcę żeby definicja img zwracała kod HTML:
 
-```
+```ruby
 def image(filename) do
   filepath = File.expand_path('/images', filename)
   img = '<img src"#{filepath}" loading="lazy">'
@@ -178,7 +203,9 @@ Kompilator wyrzuci funkcje ale potrzebny jest jeszcze web framework. I tu pojawi
 
 Oczywiście nic nie stoi na przeszkodzie, by w przyszłości stworzyć wersje desktopowe, czy mobilne. Wystarczy przygotować nowy fundament i gotowe. 
 
-## Wstępne poszukiwania
+## Pozostałe
+
+### Poszukiwania
 
 Wymyśliłem sobie, że zdejmę potrzebę szukania hostingu. Przez jakiś czas rozglądałem się po hostingach w chmurze; Heroku może być dobrym wyjściem ale nie można go używać przez całą dobę i nie ma opcji zapisu do plików; Azure byłoby w sam raz ale wymaga karty kredytowej; IBM Cloud wydaje się dobrym wyjściem; Gigalixir to Heroku które nigdy nie zasypia ale dają jedynie 1GB przepustowości. W końcu znalazłem opcję zostania resellerem resellera i otrzymania bieda hostingu za $0.00. Jedyną wadą jest ograniczenie wyświetleń do 50k, potem trzeba płacić jakieś drobne co miesiąc. Myślę że na początek to odpowiedni wybór.
 
@@ -190,6 +217,10 @@ Część serwerowa może się składać dosłownie z czegokolwiek. Baza danych b
 Jeszcze wymaga to kilku testów ale na chwilę obecną najbardziej obiecująca jest Symfonia5 (PHP). 
 
 Jeśli chodzi o koszty to tak długo jak nie muszę wydawać ani grosza, wszystko jest bezpłatne. Chyba że ktoś ma wyrzuty sumienia to potem pomyśli się nad opcją włączenia reklam.
+
+### Logowanie
+
+Mamy rok 2020, a hasła miały zniknąć z 5 lat temu. Dziś, mamy już standard WebAuthn umożliwiający logowanie się za pomocą odcisków palców i kluczy cyfrowych FIDO U2F. Archipelag jako jeden z pierwszych zamierza uczynić go głównym sposobem uwierzytelniania. Oczywiście dla biedniejszych (koszt takiego urządzenia to 100-300zł) nadal będzie możliwość logowania się hasłami.
 
 ## Archipelag Gra
 
@@ -208,3 +239,53 @@ Od południa mamy ciepłe prądy morskie podwyższające temperaturę wybrzeża 
 Parę wieków wcześniej pewna sekta została zmuszona do opuszczenia swoich ziem, w obawie przed prześladowaniami. Byli inżynierami i medykami, oskarżanymi o czary. Zrobili zrzutkę, wynajęli statek i odpłynęli na drugą stronę planety. Tutaj dzięki całkowitej niezależności od średniowiecznej kultury i sporej ilości wszelkich metali/minerałów udało im się dojść do Newtona i de Vaucansona (XVII/XVIII). Obecnie zamieszkują wyspę koralową.
 
 Tymczasem na świecie nastał wiek XVI, pewien król znudzony podbiciem wszystkich ziem znanego mu świata (coś jak Alexander Macedoński), wysyła okręty wojenne w celu zajęcia nowych ziem. Niestety burza pokrzyżowała im plany i wylądowali bezradni na naszym archipelagu. Jako jeden z rozbitków musisz walczyć o przetrwanie albo znaleźć sposób na powrót do domu.
+
+#### Rzemiosło
+
+Rzemiosło korzysta z tzw. wzoru magicznego, czyli takiego który napisałem i zapomniałem co właściwie znaczył. 
+
+- Skill = Siła, Zręczność … 
+- Trait = Kowalstwo, Stolarstwo …
+- Ilość wykonanych przedmiotów zależy od poziomu, a umiejętności liczą się tyle co nic
+
+```ruby
+class Player
+  def artisan(itemlvl, profession, attribute)
+    user = request.POST['user']
+    playerlvl = DB[:Players][email: user][lvl]
+    trait = DB[:Players][email: user][attribute]
+    skill = DB[:Players][email: user][profession]
+    score = Math.hypot(trait, skill)
+    power = Math.log(energy, score)*playerlvl/10*energy
+    difficulty = power/itemlvl
+    puts difficulty.to_i
+  end
+end
+
+
+# Wraz z zwiększającym się lvlem, maleje ilość wymaganej energii.
+# Jednocześnie wymuszam szybkie podniesienie lvla powyżej 10.
+
+====== Demo w javascripcie ======
+https://jsitor.com/-rcZEAJzx
+```
+##### Kowalstwo i walka bronią białą
+Podstawą kowalstwa jest pozbycie się znanego od Final Fantasy podziału na 100 000 mieczy różniących się tylko nazwą. 
+
+Od teraz mamy aż 3 rodzaje broni:
+- Krótką (noże)
+- Długą (miecze, szable)
+- Drzewcową (włócznie, oszczepy)
+
+Każda z nich ma odpowiednie atrybuty:
+- Waga - Czyli ile siły musi mieć postać, by jej użyć
+- Skrytość - Czy może być wykorzystana w atakach skrytobójczych ?
+- Długość - Ile zręcznosci wymagane jest by móc się nią posługiwać
+- Zakrzywienie - Zmniejsza zręczność i siłę wymaganą do posługiwania się bronią
+- Wyważenie - Zmniejsza zręczność i siłę, zależy od umiejętności kowala
+- Cięcie - Czy można nią normalnie walczyć ? (Patrz niżej)
+
+Mamy 3 rodzaje ataku: 
+- Pchnięcie - Odpowiednik silnego ataku
+- Cięcie - odpowiednik normalnego ataku
+- Rzut - jeśli trafisz dobrze to masz krytyka, a jeśli źle to tracisz broń

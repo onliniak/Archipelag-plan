@@ -203,9 +203,11 @@ Kompilator wyrzuci funkcje ale potrzebny jest jeszcze web framework. I tu pojawi
 
 Oczywiście nic nie stoi na przeszkodzie, by w przyszłości stworzyć wersje desktopowe, czy mobilne. Wystarczy przygotować nowy fundament i gotowe. 
 
+### Instalator
+
 ## Pozostałe
 
-### Poszukiwania
+### Pominąć
 
 Wymyśliłem sobie, że zdejmę potrzebę szukania hostingu. Przez jakiś czas rozglądałem się po hostingach w chmurze; Heroku może być dobrym wyjściem ale nie można go używać przez całą dobę i nie ma opcji zapisu do plików; Azure byłoby w sam raz ale wymaga karty kredytowej; IBM Cloud wydaje się dobrym wyjściem; Gigalixir to Heroku które nigdy nie zasypia ale dają jedynie 1GB przepustowości. W końcu znalazłem opcję zostania resellerem resellera i otrzymania bieda hostingu za $0.00. Jedyną wadą jest ograniczenie wyświetleń do 50k, potem trzeba płacić jakieś drobne co miesiąc. Myślę że na początek to odpowiedni wybór.
 
@@ -218,11 +220,19 @@ Jeszcze wymaga to kilku testów ale na chwilę obecną najbardziej obiecująca j
 
 Jeśli chodzi o koszty to tak długo jak nie muszę wydawać ani grosza, wszystko jest bezpłatne. Chyba że ktoś ma wyrzuty sumienia to potem pomyśli się nad opcją włączenia reklam.
 
+Srebrno-kamienny = ogromna, drewniana balia + ściany od zewnątrz obłożone kamieniami + dno pokryte cieńkim arkuszem czystego srebra (~2mm). Problem w tym, że w drewnianych beczkach pojawiają się mikro-organizmy, a jeśli woda jest przewożona w postaci lodu to prędzej, czy później wszyscy by się pochorowali. Zarówno miedź, jak i srebro mają właściwości biobójcze i były wykorzystywane do przechowywania wody. Z tym że miedź pod wpływem ciepła może zatruwać wodę. Srebro podobnie, powoli przedostaje się do wody a jego zbyt duża ilość doprowadzi do srebrzycy. Ale przynajmniej nikogo nie zatruje. W średniowieczu nikt się nie przejmował takimi drobiazgami, używając niskoprocentowych alkoholi. Srebrne naczynia były używane do krótkotrwałego przechowywania wody i wina przez ludy starożytne (i to nie wszystkie). W tym przypadku mamy hipotezę; Czy gdyby plemię alchemików-inżynierów miało nieograniczony dostęp do ówczesnych materiałów i technologii, stworzyłoby skuteczny system dystrybucji wody ? Załóżmy że mają do utrzymania 50 osób.
+
 ### Logowanie
 
-Mamy rok 2020, a hasła miały zniknąć z 5 lat temu. Dziś, mamy już standard WebAuthn umożliwiający logowanie się za pomocą odcisków palców i kluczy cyfrowych FIDO U2F. Archipelag jako jeden z pierwszych zamierza uczynić go głównym sposobem uwierzytelniania. Oczywiście dla biedniejszych (koszt takiego urządzenia to 100-300zł) nadal będzie możliwość logowania się hasłami.
+Mamy rok 2020, a hasła miały zniknąć z 5 lat temu. Dziś, mamy już standard WebAuthn umożliwiający logowanie się za pomocą odcisków palców i kluczy cyfrowych FIDO2. Archipelag jako jeden z pierwszych zamierza uczynić go głównym sposobem uwierzytelniania. Oczywiście dla biedniejszych (koszt takiego urządzenia to 50-300zł, chyba że znasz się na elektronice) nadal będzie możliwość logowania się hasłami.
 
 ## Archipelag Gra
+
+### Problem
+
+Nie zamierzam opisywać wszystkich ras, licząc na wyobraźnię graczy. Co za tym idzie stosunkowo niewielki teren, musi być odpowiedni do życia dla istot stało- i zmienno- -cieplnych. Te pierwsze lepiej radzą sobie w średnio-wilgotnym i ciepłym/chłodnym środowisku (~0°C do ~18°C), a te drugie w wilgotnym i gorącym (~30°C). Biorąc pod uwagę odległość obu wysp, nie jest możliwe by temperatura różniła się aż o 12°C na poziomie morza. Chyba, że mówimy tu o innej planecie, dużo mniejszej od Ziemii.
+
+Kolejnym problemem będzie niewielka ilość przeciwników. Z reguły państwa wyspiarskie nie mają przerażających ssaków, jak wielkie koty czy niedźwiedzie. O ile nie są rozmiarów Madagaskaru lub większe. Marynarze przewożą czasem zwierzęta, które dziczeją i powstają "lokalne" stada koni czy wielbłądów ale nie tutaj. A raczej nikt nie będzie polował na ptaki i pająki. Chyba że na wyspy przypadkowo przypłynęły szczury, które stały się lokalnymi drapieżnikami, a kolejni marynarze sprowadzili większe koty, które zdziczały i stały się jeszcze większym zagrożeniem od szczurów … ale to już mocno naciągana historia.
 
 ### Miejsce akcji
 
@@ -230,11 +240,9 @@ Akcja rozgrywa się na tytułowym archipelagu, na który składają się dwie g�
 
 Najdalej na wschód położona wyspa jest górzysta, pochodzenia wulkanicznego. Po dziś dzień można podziwiać krater z lawą. Znajdziemy na niej mnóstwo surowców mineralnych, metali szlachetnych, wieczny lodowiec w wysokich partiach masywu górskiego i rozległą pustynię w centralnej części terenu. 
 
-Na zachód od niej znajdziemy płaską, piaszczystą wyspę koralową oddaloną od sąsiadów wąskim pasem wody o szerokości 10km. Zalesiona, patrząc z lotu ptaka ma kształt końskiej głowy. Znajdziemy tu sztuczny, miedziano-kamienny okrągły "basen" o średnicy 1km i głębokości 20m, wypełniony słodką wodą z roztopionego lodu. Czyli ma z 30 000 litrów. Teren nad tym "jeziorem" zajmuje osada, od której rozchodzą się promieniście pola uprawne wypełnione ziemią wulkaniczną.
+Na zachód od niej znajdziemy płaską, piaszczystą wyspę koralową oddaloną od sąsiadów o 40km. Zalesiona, patrząc z lotu ptaka ma kształt końskiej głowy. Znajdziemy tu sztuczny, srebrno-kamienny okrągły "basen" o średnicy 500m i głębokości 20m, wypełniony słodką wodą z roztopionego lodu. Teren nad tym "jeziorem" zajmuje osada, od której rozchodzą się promieniście pola uprawne wypełnione ziemią wulkaniczną. 
 
 Dalej na zachód znajdziemy kilka mniejszych wysepek o średnicy 300-500m. 
-
-Od południa mamy ciepłe prądy morskie podwyższające temperaturę wybrzeża do nawet 30°C, od północy temperatura na plaży zbliża się do 20°C. Temperatura w górach zbliża się do zera.
 
 Parę wieków wcześniej pewna sekta została zmuszona do opuszczenia swoich ziem, w obawie przed prześladowaniami. Byli inżynierami i medykami, oskarżanymi o czary. Zrobili zrzutkę, wynajęli statek i odpłynęli na drugą stronę planety. Tutaj dzięki całkowitej niezależności od średniowiecznej kultury i sporej ilości wszelkich metali/minerałów udało im się dojść do Newtona i de Vaucansona (XVII/XVIII). Obecnie zamieszkują wyspę koralową.
 

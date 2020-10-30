@@ -228,6 +228,11 @@ Mamy rok 2020, a hasła miały zniknąć z 5 lat temu. Dziś, mamy już standard
 
 ## Archipelag Gra
 
+### Nazwy
+
+Nazwy mogą zostać jeszcze zmienione. Pochodzą z generatora: 
+Ludy nomadzkie i pustynne mają nazwy berberskie, ludy górskie mają nazwy nordyckie, a ludy leśne celtyckie.
+
 ### Problem
 
 Nie zamierzam opisywać wszystkich ras, licząc na wyobraźnię graczy. Co za tym idzie stosunkowo niewielki teren, musi być odpowiedni do życia dla istot stało- i zmienno- -cieplnych. Te pierwsze lepiej radzą sobie w średnio-wilgotnym i ciepłym/chłodnym środowisku (~0°C do ~18°C), a te drugie w wilgotnym i gorącym (~30°C). Biorąc pod uwagę odległość obu wysp, nie jest możliwe by temperatura różniła się aż o 12°C na poziomie morza. Chyba, że mówimy tu o innej planecie, dużo mniejszej od Ziemii.

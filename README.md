@@ -228,6 +228,13 @@ Mamy rok 2020, a hasła miały zniknąć z 5 lat temu. Dziś, mamy już standard
 
 ## Archipelag Gra
 
+![Stara mapa](https://imgur.com/a/KN0uUuD)
+Pierwszy szkic Archipelagu
+![Image of Yaktocat](https://imgur.com/a/n0USEL2)
+Obecna wersja Archipelagu
+![Image of Yaktocat](https://imgur.com/a/naBCaJV)
+Obecna wersja, bez filtrów graficznych
+
 ### Nazwy
 
 Nazwy mogą zostać jeszcze zmienione. Pochodzą z generatora: 

@@ -273,19 +273,25 @@ Nie zamierzam tworzyć opisu świata w kilkunastu tomach ale najważniejsze fakt
 1. Przypływa pojedynczy statek z alchemikami-uciekinierami, osiedlają się na Invernaidii (ponoć wioska nad jeziorem w Szkocji).
 2. Zakładają kolonię na Merkurii (wg Wikipedii handel).
 3. Przez lata rozbijają się kolejni przybysze.
-4. Konflikt z magami. Ich magia przestaje działać w pobliżu urządzeń mechanicznych, przeprowadzili się na Ghostię.
-5. Pomiędzy dawnymi koloniami regularnie kursują statki (a raczej barki) pasażerskie i handlowe.
-6. Na Merkurii odkryte zostaje żródło geotermalne, zapewniając odpowiednią wilgotność i temperaturę dla istot zmiennocieplnych.
-7. Przypadkowo na tamtejszej pustyni można było znaleźć składniki do materiałów wybuchowych. 
-8. ⟱ = wodospad
-9. Zostajesz nowym rozbitkiem i zaczynasz grę.
+4. Podwodna erupcja tworzy dwie nowe wyspy na północ od Merkurii.
+5. Konflikt z magami. Ich magia przestaje działać w pobliżu urządzeń mechanicznych, przeprowadzili się na Ghostię.
+6. Pomiędzy dawnymi koloniami regularnie kursują statki (a raczej barki) pasażerskie i handlowe.
+7. Na Merkurii odkryte zostaje żródło geotermalne, zapewniając odpowiednią wilgotność i temperaturę dla istot zmiennocieplnych.
+8. Przypadkowo na tamtejszej pustyni można było znaleźć składniki do materiałów wybuchowych. 
+9. ⟱ = wodospad
+10. Zostajesz nowym rozbitkiem i zaczynasz grę.
 
 ### Miasta i Dyplomacja
 
 W chwili rozpoczęcia gry mamy jeden długi szlak handlowy. Dla ułatwienia, przechodzi przez 3 punkty kontrolne:
 - Inserę - wioska portowa Invernaidii
 - Holvaber - wioska portowa Merkurii
-- Thortad - osada położona na nizinach Merkurii, skąd towar jest transportowany na wysokość nawet 6700m n.p.m
+- Thortad - miasto handlowe Merkurii
+  - Towar jest transportowany na wysokość nawet 6700m n.p.m
+  - Towar jest transportowany dalej, na pustynię.
+  - Populacja 20 000, z czego większość to strażnicy i bankierzy. Znajdziemy też gospodę.
+  - Pozwala to na płacenie za towar, który jeszcze nie dotarł w miejsce docelowe.
+  - Niekiedy nazywana prawdziwą stolicą Merkurii
 
 Mamy też 4 stolice:
 - Bjorfug - Merkuria, prawdopodobnie jedyna stolica z najmniejszą liczbą mieszkańców w królestwie
@@ -294,6 +300,15 @@ Mamy też 4 stolice:
 - Abevenver - Invernaidia
 
 Obecnie panują przyjazne stosunki między państwami, oprócz Ghostii która się izoluje. 
+
+### Temperatura
+
+W Abeventer (4m n.p.m) w dzień mamy około 19°C, w nocy około 10°C. 
+W Ileoen (1369m n.p.m) w dzień mamy około 12°C, w nocy około 0°C.
+W Bjorfugu (6724m n.p.m) w dzień mamy około -14°C, w nocy lepiej nie myśleć.
+W Assie (1089m n.p.m) temperatura wody wynosi stałe 90°C, okoliczny płaskowyż ma około 22°C w dzień.
+
+Merkuria leży w strefie aktywności wulkanicznej, stąd znaczna różnica w temperaturze.
 
 #### Rzemiosło
 

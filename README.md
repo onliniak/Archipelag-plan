@@ -240,6 +240,8 @@ Obecna wersja Archipelagu
 
 Obecna wersja, bez filtrów graficznych
 
+Tworząc mapę próbowałem stworzyć lądy, które w zależności od wyobraźni mogą być nazwane w różny sposób. Na przykład wyspa górzysta może być równie dobrze żubrem, co robalem bez czułków. Ponadto widać tu atmosferę konfliktu, jedna z wysp jest całkowicie pozbawiona drzew ale w zamian ma kopalnie wszelkich minerałów. W tle widać wężowatą strukturę, na której może być wszystko. 
+
 ### Nazwy
 
 Nazwy mogą zostać jeszcze zmienione. Pochodzą z generatora: 
@@ -257,13 +259,41 @@ Akcja rozgrywa się na tytułowym archipelagu, na który składają się dwie g�
 
 Najdalej na wschód położona wyspa jest górzysta, pochodzenia wulkanicznego. Po dziś dzień można podziwiać krater z lawą. Znajdziemy na niej mnóstwo surowców mineralnych, metali szlachetnych, wieczny lodowiec w wysokich partiach masywu górskiego i rozległą pustynię w centralnej części terenu. 
 
-Na zachód od niej znajdziemy płaską, piaszczystą wyspę koralową oddaloną od sąsiadów o 40km. Zalesiona, patrząc z lotu ptaka ma kształt końskiej głowy. Znajdziemy tu sztuczny, srebrno-kamienny okrągły "basen" o średnicy 500m i głębokości 20m, wypełniony słodką wodą z roztopionego lodu. Teren nad tym "jeziorem" zajmuje osada, od której rozchodzą się promieniście pola uprawne wypełnione ziemią wulkaniczną. 
+Na północny-zachód od niej znajdziemy płaską, piaszczystą wyspę koralową oddaloną od sąsiadów o 30km. Zalesiona, patrząc z lotu ptaka ma kształt końskiej głowy. Znajdziemy tu sztuczny, srebrno-kamienny okrągły "basen" o średnicy 500m i głębokości 20m, wypełniony słodką wodą z roztopionego lodu. Teren nad tym "jeziorem" zajmuje osada, od której rozchodzą się promieniście pola uprawne wypełnione ziemią wulkaniczną. 
 
-Dalej na zachód znajdziemy kilka mniejszych wysepek o średnicy 300-500m. 
+Pomiędzy nimi znajdziemy kilka mniejszych wysepek.
 
 Parę wieków wcześniej pewna sekta została zmuszona do opuszczenia swoich ziem, w obawie przed prześladowaniami. Byli inżynierami i medykami, oskarżanymi o czary. Zrobili zrzutkę, wynajęli statek i odpłynęli na drugą stronę planety. Tutaj dzięki całkowitej niezależności od średniowiecznej kultury i sporej ilości wszelkich metali/minerałów udało im się dojść do Newtona i de Vaucansona (XVII/XVIII). Obecnie zamieszkują wyspę koralową.
 
 Tymczasem na świecie nastał wiek XVI, pewien król znudzony podbiciem wszystkich ziem znanego mu świata (coś jak Alexander Macedoński), wysyła okręty wojenne w celu zajęcia nowych ziem. Niestety burza pokrzyżowała im plany i wylądowali bezradni na naszym archipelagu. Jako jeden z rozbitków musisz walczyć o przetrwanie albo znaleźć sposób na powrót do domu.
+
+### Historia
+
+Nie zamierzam tworzyć opisu świata w kilkunastu tomach ale najważniejsze fakty wyglądają tak:
+1. Przypływa pojedynczy statek z alchemikami-uciekinierami, osiedlają się na Invernaidii (ponoć wioska nad jeziorem w Szkocji).
+2. Zakładają kolonię na Merkurii (wg Wikipedii handel).
+3. Przez lata rozbijają się kolejni przybysze.
+4. Konflikt z magami. Ich magia przestaje działać w pobliżu urządzeń mechanicznych, przeprowadzili się na Ghostię.
+5. Pomiędzy dawnymi koloniami regularnie kursują statki (a raczej barki) pasażerskie i handlowe.
+6. Na Merkurii odkryte zostaje żródło geotermalne, zapewniając odpowiednią wilgotność i temperaturę dla istot zmiennocieplnych.
+7. Przypadkowo na tamtejszej pustyni można było znaleźć składniki do materiałów wybuchowych. 
+8. ⟱ = wodospad
+9. Zostajesz nowym rozbitkiem i zaczynasz grę.
+
+### Miasta i Dyplomacja
+
+W chwili rozpoczęcia gry mamy jeden długi szlak handlowy. Dla ułatwienia, przechodzi przez 3 punkty kontrolne:
+- Inserę - wioska portowa Invernaidii
+- Holvaber - wioska portowa Merkurii
+- Thortad - osada położona na nizinach Merkurii, skąd towar jest transportowany na wysokość nawet 6700m n.p.m
+
+Mamy też 4 stolice:
+- Bjorfug - Merkuria, prawdopodobnie jedyna stolica z najmniejszą liczbą mieszkańców w królestwie
+- Assa - osada nad źródłem termalnym
+- Ileoen - Ghostia
+- Abevenver - Invernaidia
+
+Obecnie panują przyjazne stosunki między państwami, oprócz Ghostii która się izoluje. 
 
 #### Rzemiosło
 

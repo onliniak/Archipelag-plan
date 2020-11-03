@@ -4,6 +4,18 @@ Podsumowanie wszystkich informacji zebranych do tej pory. Na razie archiwum robi
 Dopiski:
   - Ideologia
     - Jeśli projekt jest płatny to szybkość wykonania zawsze jest ważniejsza od jakości, powiem nawet że im gorsza jakość tym lepiej (patrz: płatne wtyczki do WordPressa). Ale jeśli projekt jest darmowy to należy się nim zająć tylko i wyłącznie wtedy, kiedy ma się pewność że posiadane umiejętności są wystarczające do napisania średnio-dobrej jakości kodu który będzie wydajny i łatwy w przyszłym zarządzaniu. Jeśli w trakcie projektowania lub pisania pojawią się trudności, projekt należy wstrzymać na miesiąc.
+    
+### Co to tu robi ?
+
+TLDR Dyskusje na temat nowo-powstającej gry tekstowej. Pod każdym możliwym kątem.
+
+Mając zerowe doświadczenie, piszę kompilator który w formie czytelnej dla człowieka opisze mi grę tekstową. Jednocześnie muszę myśleć o samej grze. Żeby się nie pomylić muszę mieć notatnik, a skoro już się trudzę to czemu by nie zrobić z tego projektu open source ? Muszę więc mieć miejsce, w którym wszyscy chcący pomóc będą mogli dawać swoje uwagi. Zarówno jeśli chodzi o ulepszenia kompilatora, jak i samą grę. I raczej nie chcę wszelkich uwag w repozytorium kompilatora, lepiej mieć osobne repozytorium dyskusyjne.
+
+#### Kiedy premiera ?
+
+Kompilator powinien być gotowy do 20 listopada, wtedy powinny się rozpocząć testy gry.
+
+Zaraz po rozpoczęciu testów, trzeba będzie szybko wprowadzać nowe funkcje, w międzyczasie ulepszając kompilator i czuwając nad rozwojem projektu. Pojawi się więc zapotrzebowanie na piszących dokumentację, grafików, pisarzy, programistów … i najlepiej menedżera. Głupia sprawa, że niby wiem najwięcej o projekcie, a nie mam pojęcia jak wskazać co konkretnie kto mógłby zrobić.
 
 ## Wprowadzenie 
 
@@ -202,12 +214,12 @@ Kompilator korzysta z interfejsów. Wczytuje zawartość pliku do pamięci, a na
 0. Bez zbędnego kombinowania, mamy 3 katalogi i 1 plik
   - templates → trzymamy tu pliki Yaml
   - lang/txts → trzymamy tu dłuższe teksty, w Markdownie oraz lokalizacje.
-  - format/definitions → polecenia w formacie polecenie.ext, czyli txt → txt.ext
-  - parser
-1. Parser tworzy ogromną tablicę (array) zawierającą nazwy plików z katalogu templates.
-2. Parser tworzy pętlę for each, przetwarzając wszystkie pliki na krotki (hash).
+  - definitions → polecenia w formacie polecenie.ext, czyli txt → txt.ext
+  - lexer
+1. Lexer tworzy ogromną tablicę (array) zawierającą nazwy plików z katalogu templates.
+2. Lexer tworzy pętlę for each, przetwarzając wszystkie pliki na krotki (hash).
 3. Dla każdego pliku powstaje pętla klucz → wartość.
-4. Parser bierze nazwę klucza i sprawdza, czy w definicjach jest plik o tej samej nazwie.
+4. Lexer bierze nazwę klucza i sprawdza, czy w definicjach jest plik o tej samej nazwie.
 5. Jeśli jest, wykonuje funkcję klucz(wartość).
 6. Funkcja przetwarzana jest na ciąg znaków, który zostaje dodany do zmiennej.
 7. I tak aż wszystkie polecenia zostaną sprawdzone/wykonane.
@@ -217,7 +229,7 @@ Kompilator korzysta z interfejsów. Wczytuje zawartość pliku do pamięci, a na
 11. Zmienna jest czyszczona (jej zawartość jest zamieniana na " ").
 12. Przetwarzamy kolejny plik.
 
-Format oznacza język, na który mają być zamienione pliki. Np katalog html/definitions zawiera definicje zamieniające pliki Yaml na odpowiadające im pliki html.
+Co do definicji. W przyszłości trzeba będzie jakoś to rozdzielić na backend i frontend ale na chwilę obecną kompilator ma listę formatów front- i back- -endowych, na podstawie których wyrzuca 2 podkatalogi output.
 
 txts to wszelkie teksty, od typowej lokalizacji (dalej, wstecz w różnych językach), po dłuższe opisy (również w różnych językach). Lang to nazwa języka, na przykład pl/txts trzyma pliki w języku polskim.
 

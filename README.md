@@ -1,5 +1,5 @@
 # Archipelag-plan
-Podsumowanie wszystkich informacji zebranych do tej pory.
+Podsumowanie wszystkich informacji zebranych do tej pory. Na razie archiwum robi za notatnik. Prace nad frameworkiem zostały już rozpoczęte, więc wkrótce przepiszę całą zawartość na Wiki. Wtedy będzie robić za dokumentację + zgłaszanie nowych pomysłów. 
 
 Dopiski:
   - Ideologia
@@ -197,6 +197,32 @@ Kompilator bierze pliki tekstowe i na ich podstawie tworzy pliki źródłowe. B�
 
 Kompilator korzysta z interfejsów. Wczytuje zawartość pliku do pamięci, a następnie na podstawie odpowiedniego polecenia zamienia go w inny rodzaj plików. Początkowo będzie obsługiwać zamianę na zapytania SQL, generowanie kodu statycznego Jekyll (GitHub Pages) oraz generowanie funkcji w jeszcze nieokreślonym języku programowania.
 
+#### Zasada działania wersji alpha
+
+0. Bez zbędnego kombinowania, mamy 3 katalogi i 1 plik
+  - templates → trzymamy tu pliki Yaml
+  - lang/txts → trzymamy tu dłuższe teksty, w Markdownie oraz lokalizacje.
+  - format/definitions → polecenia w formacie polecenie.ext, czyli txt → txt.ext
+  - parser
+1. Parser tworzy ogromną tablicę (array) zawierającą nazwy plików z katalogu templates.
+2. Parser tworzy pętlę for each, przetwarzając wszystkie pliki na krotki (hash).
+3. Dla każdego pliku powstaje pętla klucz → wartość.
+4. Parser bierze nazwę klucza i sprawdza, czy w definicjach jest plik o tej samej nazwie.
+5. Jeśli jest, wykonuje funkcję klucz(wartość).
+6. Funkcja przetwarzana jest na ciąg znaków, który zostaje dodany do zmiennej.
+7. I tak aż wszystkie polecenia zostaną sprawdzone/wykonane.
+8. Program tworzy (mkdir) nowy katalog (jeśli nie istnieje) output.
+9. Program tworzy (touch) nowy plik, w katalogu output o takiej samej nazwie, jak nazwa pliku Yaml.
+10. Program Otwiera nowo-utworzony plik i wpisuje do niego zawartość zmiennej. 
+11. Zmienna jest czyszczona (jej zawartość jest zamieniana na " ").
+12. Przetwarzamy kolejny plik.
+
+Format oznacza język, na który mają być zamienione pliki. Np katalog html/definitions zawiera definicje zamieniające pliki Yaml na odpowiadające im pliki html.
+
+txts to wszelkie teksty, od typowej lokalizacji (dalej, wstecz w różnych językach), po dłuższe opisy (również w różnych językach). Lang to nazwa języka, na przykład pl/txts trzyma pliki w języku polskim.
+
+Z chwilą wydania stabilnej wersji gry (jakby nie było framework ma w pierwszej kolejności służyć do uruchomienia gry tekstowej), rozpoczną się przygotowania do przerobienia powyższej listy na "specyfikację". Od tej chwili każdy, kto chce będzie mógł przygotować własny parser. "Specyfikacja" będzie oznaczona jako szkic tak długo, aż nie powstaną pierwsze implementacje. 
+ 
 ### Fundament
 
 Kompilator wyrzuci funkcje ale potrzebny jest jeszcze web framework. I tu pojawia się fundament, czyli przygotowany wcześniej kod uruchamiający silnik w danym środowisku np. w przeglądarce internetowej.
